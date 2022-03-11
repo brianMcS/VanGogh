@@ -1,0 +1,131 @@
+body{
+    background-color: #fefbd8;
+    font-family: sans-serif;
+}
+
+img{max-width: 100%;}
+            
+            
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    background-color:#fefbd8; 
+    margin:auto;
+    width:80%;
+    color:#618685;
+}
+
+.logo{grid-column:1/4;}
+        
+.contact{
+    grid-column:5/7; 
+    padding-top: 3em;
+    text-align: right;
+}
+
+
+.contact a{
+    text-decoration: none;
+    color:#6D7EF8;
+}
+            
+.banner{grid-column: 1/7;}
+
+.header{
+    grid-column: 1/7;
+    text-align: center;
+    padding:1em;
+}
+            
+.navMenu{
+    grid-column: 1/7;
+    text-align: center;
+    background-color: #fefbd8;
+}
+            
+.navMenu ul{
+    list-style-type: none;
+}
+
+.navMenu li{
+    display: inline-block;
+    margin: 3em;
+}
+            
+.navMenu a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color:#618685;
+}
+
+.heading{
+    grid-column: 1/7;
+    margin: 1em;
+    padding:1em;
+    text-align: center;
+}
+
+form{
+    grid-column: 2/6;
+    margin: 2em;
+}
+
+input{
+    background-color:#fefbd8;
+    border: 1px solid #618685;
+}
+
+/* this is an example of the ID selector*/
+#list1 label{
+    width:10em; 
+    float:left;
+}
+
+
+ol, ul{list-style-type:none;}
+
+#submit{
+    margin-left: 15em;
+    background-color: #618685;
+    color:#fefbd8;
+    font-size: 1em
+}
+
+#reset{
+    background-color: #618685;
+    color:#fefbd8;
+    font-size: 1em
+}
+
+.footLeft{
+    grid-column: 1/3;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding:2em;
+}
+
+.footMid{
+    grid-column: 3/5;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding: 2em;
+}
+                  
+.footRight{
+    grid-column: 5/7;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding:2em;
+}
+
+.footMid a{
+    text-decoration:none;
+    color: #618685;
+}
+
+.footRight a{
+    color:#6D7EF8;
+}

@@ -1,0 +1,133 @@
+body{
+    background-color: #fefbd8;
+    font-family: sans-serif;
+}
+
+img{max-width: 100%;}
+            
+            
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    background-color:#fefbd8; 
+    margin:auto;
+    width:80%;
+}
+
+.logo{grid-column:1/4;}
+        
+.contact{
+    grid-column:5/7; 
+    padding-top: 3em;
+    color: #618685;
+    text-align: right;
+}
+.contact a{
+    text-decoration: none;
+    color:#6D7EF8;
+}
+            
+.banner{grid-column: 1/7;}
+
+.header{
+    grid-column: 1/7;
+    color: #618685;
+    text-align: center;
+    padding:1em;
+}
+            
+.navMenu{
+    grid-column: 1/7;
+    text-align: center;
+    background-color: #fefbd8;
+}
+            
+.navMenu ul{
+    list-style-type: none;
+}
+
+.navMenu li{
+    display: inline-block;
+    margin: 3em;
+}
+            
+.navMenu a{
+    text-decoration: none;
+    color: #618685;
+    font-size: 1.2em;
+}
+
+.left1{
+    grid-column: 1/5;
+    padding:1em;
+    text-align: left;
+    color:#618685;
+}
+
+.right1{
+    grid-column: 5/7;
+    padding: 2em;
+    padding-top: 2em;
+    text-align: right;
+}
+
+.left2, .left4{
+    grid-column: 1/4;;
+    text-align: left;
+    padding: 2em;
+    
+}
+            
+.right2, .right4{
+    grid-column: 4/7;
+    text-align: left;
+    padding: 2em;
+    color:#618685;
+}
+
+.left3{
+    grid-column: 1/5;
+    text-align: left;
+    padding: 2em;
+    color:#618685;
+}
+            
+.right3{
+    grid-column: 5/7;
+    text-align: center;
+    padding:1em;
+    padding-top: 2em;
+}
+            
+.footLeft{
+    grid-column: 1/3;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding:2em;
+}
+
+.footMid{
+    grid-column: 3/5;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding: 2em;
+}
+                  
+.footRight{
+    grid-column: 5/7;
+    background-color:#d5f4e6;
+    color:#618685;
+    text-align: left;
+    padding:2em;
+}
+
+.footMid a{
+    text-decoration: none;
+    color: #618685;
+}
+
+.footRight a{
+    color:#6D7EF8;
+}
